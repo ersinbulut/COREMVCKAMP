@@ -11,19 +11,9 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        //CategoryRepository categoryRepository = new CategoryRepository();
         GenericRepository<Category> repo = new GenericRepository<Category>();
         public void CategoryAdd(Category category)
         {
-            //if (category.CategoryName!=""&& category.CategoryDescription!="" &&
-            //    category.CategoryName.Length>=5 && category.CategoryStatus == true)
-            //{
-            //    categoryRepository.AddCategory(category);
-            //}
-            //else
-            //{
-            //    //Hata mesajı
-            //}
             throw new NotImplementedException();
         }
 
