@@ -9,7 +9,7 @@ namespace DataAccessLayer.Abstract
 {
     public interface IBlogDal
     {
-        List<Blog> ListAllCategory();
+        List<Blog> ListAllBlog();
         void AddBlog(Blog blog);
         void DeleteBlog(Blog blog);
         void UpdateBlog(Blog blog);
